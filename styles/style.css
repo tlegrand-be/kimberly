@@ -62,6 +62,10 @@
       .shop:not(.todo) {
         color: rgb(123, 178, 237);
       }
+
+       .shop2 {
+        color: rgb(123, 178, 237);
+      }
       
       .work-index {
         display: inline-block;
