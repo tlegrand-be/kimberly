@@ -56,9 +56,13 @@
       }
 
       .work:not(.todo) {
-        color: rgb(123, 178, 237)
+        color: rgb(123, 178, 237);
       }
 
+      .shop:not(.todo) {
+        color: rgb(123, 178, 237);
+      }
+      
       .work-index {
         display: inline-block;
         color: black;
@@ -68,6 +72,8 @@
         margin-right: 40px;
         height: auto;
       }
+
+   
 
       .a{
         grid-area: A;
@@ -221,9 +227,9 @@
       }
 
       .dot {
-        font-size: 3vw;
+        font-size: 2.8vw;
         display: inline-block;
-        vertical-align: -0.2em;
+        vertical-align: -0.15em;
         margin-left: -5px;
         margin-right: -1px;
       }
@@ -259,6 +265,9 @@
         width: 1.4em;
      }
 
+     * {
+      font-family: aleo;
+    }
     .index-page {
       margin-left: 230px;
       margin-right: 230px;
@@ -441,4 +450,41 @@
       height: 270px;
       width: 100%;
       background-color: rgb(146, 177, 196);
+    }
+
+    .shop-title {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: -30px;
+      font-size: 50px;
+    }
+
+    .shop-buttons {
+      text-align: center;
+      height: 20px;
+      margin-top: 30px;
+    }
+
+    #all-button, #sticker-button, #design-button, #illustration-button {
+      color: black;
+      border: none;
+      background-color: white;
+      font-weight: 300;
+      font-size: 12px;
+    }
+
+    #all-button:not(.todo) {
+      color: rgb(214, 140, 2);
+    }
+
+    #sticker-button:hover {
+      color: rgb(214, 140, 2);
+    }
+
+    #design-button:hover {
+      color: rgb(214, 140, 2);
+    }
+
+    #illustration-button:hover {
+      color: rgb(214, 140, 2);
     }
