@@ -468,6 +468,7 @@
 
     #all-button, #sticker-button, #design-button, #illustration-button {
       margin-top: 50px;
+      margin-right: 5px;
       color: black;
       border: none;
       background-color: white;
@@ -498,7 +499,7 @@
     #shop-stickers {
       margin-left: 15%;
       margin-right: 15%;
-      margin-top: 70px; 
+      margin-top: 90px; 
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
       gap: 30px;
