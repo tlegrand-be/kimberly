@@ -499,7 +499,7 @@
       margin-left: 15%;
       margin-right: 15%;
       margin-top: 70px; 
-      display: grid;
+      display: flex;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
       gap: 30px;
       
