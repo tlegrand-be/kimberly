@@ -502,12 +502,17 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
       gap: 30px;
-      
+      cursor: pointer;
     }
 
-     #shop-stickers img {
+    #shop-stickers img {
       width: 100%;
       height: 200px;
+    }
+
+    #shop-stickers img:hover {
+      opacity: 0.8;
+      transition: 0.5s;
     }
 
 
