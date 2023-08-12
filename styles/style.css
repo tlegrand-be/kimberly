@@ -55,7 +55,7 @@
         margin-top: 150px;
       }
 
-      .work:not(.todo) {
+      .work {
         color: rgb(123, 178, 237);
       }
 
