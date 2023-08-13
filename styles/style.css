@@ -479,19 +479,19 @@
       font-size: 12px;
     }
     
-    #all-button.active-button,
-    #sticker-button.active-button,
-    #design-button.active-button,
-    #illustration-button.active-button {
-      color: orange;
-      
-    }
-    
     #all-button:hover,
     #sticker-button:hover,
     #design-button:hover,
     #illustration-button:hover {
       cursor: pointer;
+      color: orange;
+    }
+
+    #all-button.active-button,
+    #sticker-button.active-button,
+    #design-button.active-button,
+    #illustration-button.active-button {
+      color: orange;
     }
     
     #shop-stickers {
