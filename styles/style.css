@@ -465,8 +465,11 @@
       height: 20px;
       margin-top: 30px;
     }
-
-    #all-button, #sticker-button, #design-button, #illustration-button {
+    
+    #all-button,
+    #sticker-button,
+    #design-button,
+    #illustration-button {
       margin-top: 50px;
       margin-right: 5px;
       color: black;
@@ -475,47 +478,41 @@
       font-weight: 300;
       font-size: 12px;
     }
-
-    #all-button, #sticker-button, #design-button, #illustration-button:hover {
+    
+    #all-button.active-button,
+    #sticker-button.active-button,
+    #design-button.active-button,
+    #illustration-button.active-button {
+      color: orange;
+      
+    }
+    
+    #all-button:hover,
+    #sticker-button:hover,
+    #design-button:hover,
+    #illustration-button:hover {
       cursor: pointer;
     }
-
-    #all-button:not(.todo) {
-      color: rgb(214, 140, 2);
-    }
-
-    #sticker-button:hover {
-      color: rgb(214, 140, 2);
-    }
-
-    #design-button:hover {
-      color: rgb(214, 140, 2);
-    }
-
-    #illustration-button:hover {
-      color: rgb(214, 140, 2);
-    }
-
+    
     #shop-stickers {
       margin-left: 15%;
       margin-right: 15%;
-      margin-top: 90px; 
+      margin-top: 90px;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       gap: 30px;
       cursor: pointer;
     }
-
+    
     #shop-stickers img {
       width: 100%;
       height: 200px;
     }
-
+    
     #shop-stickers img:hover {
       opacity: 0.8;
       transition: 0.5s;
     }
-
 
 
     
